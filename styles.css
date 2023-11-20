@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Over+the+Rainbow&family=Sunshiney&display=swap');
+
+div {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'sunshiney';
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'over the rainbow';
+}
+
+h3 {
+  text-align: center;
+  font-size: 26px;
+  font-family: 'dawning of a new day';
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.color-panel {
+  display: block;
+}
+
+.red {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.orange {
+  background-color: #FFA500;
+  color: #fff;
+}
+
+.yellow {
+  background-color: #FFFF00;
+  color: black;
+}
+
+.green {
+  background-color: #00FF00;
+  color: black;
+}
+
+.blue {
+  background-color: #0000FF;
+  color: #fff;
+}
+
+.indigo {
+  background-color: #4B0082;
+  color: #fff;
+}
+
+.violet {
+  background-color: #8F00FF;
+  color: #fff
+  ;
+}
+
+.color-panel {
+  display: block;
+  text-align: center;
+  margin: 22px auto;
+  min-height: 25px;
+  }
+
+.font-panel {
+  text-align: center;
+  display: block;
+}
+
+.over-the-rainbow {
+ font-family: 'Over the Rainbow', cursive;
+ color: red;
+ font-size: 22px;
+ }
+
+.regular {
+  font-style: normal;
+  }
+
+.italic {
+  font-style: italic;
+}
+
+.sunshiney {
+  font-family: 'Sunshiney';
+  color: orange;
+  font-size: 22px;
+  }
+
+.dawning-of-a-new-day {
+  font-family: 'Dawning of a new day';
+  color: green;
+  font-size: 22px;
+  }
+
+.font-label {
+    text-decoration: underline;
+  }
+
+  li, shine {
+    color: blue;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  li, write {
+    display: list-item;
+    text-align: center;
+    color: indigo;
+    list-style-type: none;
+  }
+
+  .container {
+    border: 2px dashed limegreen;
+    padding: 15px;
+    margin: 12px auto;
+  }
